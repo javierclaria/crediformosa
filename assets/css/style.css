@@ -876,6 +876,14 @@ footer a {
         margin-top: 52px;
     }
 
+    #hero-image-confirmacion p {
+        max-width: 100%;
+    }
+
+    #hero-image-confirmacion h2 {
+        max-width: 100%;
+    }
+
     .box1 h3, .box2 h3, .box3 h3 {
         margin-top: -20px;
     }
