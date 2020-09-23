@@ -1,24 +1,24 @@
 @font-face {
     font-family: "SF-PRO-BOLD";
-    src: url("http://prostudio.com.ar/crediformosa/assets/fonts/SF-Pro-Rounded-Bold.otf");
+    src: url("../fonts/SF-Pro-Rounded-Bold.otf");
   }
 
   @font-face {
     font-family: "SF-PRO-MED";
-    src: url("http://prostudio.com.ar/crediformosa/assets/fonts/SF-Pro-Rounded-Medium.otf");
+    src: url("../fonts/SF-Pro-Rounded-Medium.otf");
   }
 
   @font-face {
     font-family: "SF-PRO-TEXT-MED";
-    src: url("http://prostudio.com.ar/crediformosa/assets/fonts/SF-Pro-Text-Medium.otf");
+    src: url("../fonts/SF-Pro-Text-Medium.otf");
   }
 
   @font-face {
     font-family: "SF-PRO-TEXT-BOLD";
-    src: url("http://prostudio.com.ar/crediformosa/assets/fonts/SF-Pro-Text-Bold.otf");
+    src: url("../fonts/SF-Pro-Text-Bold.otf");
   }
 
   @font-face {
     font-family: "SF-PRO-TEXT-REG";
-    src: url("http://prostudio.com.ar/crediformosa/assets/fonts/SF-Pro-Text-Regular.otf");
+    src: url("../fonts/SF-Pro-Text-Regular.otf");
   }

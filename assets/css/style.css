@@ -25,6 +25,8 @@ section {
 }
 
 /* header */ 
+
+
 header {
     border-bottom: 1px solid #003D79;
     margin: auto;
@@ -1155,6 +1157,107 @@ footer a {
         padding-right: 5%;
         margin-bottom: 15px;
         padding-left: 5%;
+    }
+
+}
+
+
+
+
+.disclaimer-mobile {
+    display: none;
+}
+@media screen and ( max-width: 768px ) {
+    .calculador-box-1 h2 {
+        text-align: center;
+        clear: both;
+    }
+
+    .calculador-box-1 {
+        width: 90%;
+        float: left;
+        padding: 5%;
+    }
+
+    .btn_1 , .btn_2, .btn_3{
+        float: none;
+        width: 30%;
+        max-width: 200px;
+        font-size: 18px;
+        border-radius: 4px;
+        margin-right: 0;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: grid;
+        margin: auto;
+        margin-bottom: 20px;
+        min-width: 200px;
+    }
+
+
+    .btn_1.active, .btn_2.active, .btn_3.active {
+        float: none;
+        width: 30%;
+        max-width: 200px;
+        font-size: 18px;
+        background: #003D79;
+        color: #E6E6E6;
+        border-radius: 4px;
+        margin-right:0;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: grid;
+        margin: auto;
+        margin-bottom: 20px;
+        min-width: 200px;
+    }
+
+    .column-one {
+        float: left;
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .column-one p {
+        display: none;
+    }
+
+    .column-two {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .completar-solicitud {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .completar-solicitud br {
+        display: none;
+    }
+
+    .column-one-tasa {
+        float: left;
+        width: 50%;
+    }
+
+    .column-two-tasa {
+        float: left;
+        width: 50%;
+    }
+
+    .disclaimer-mobile {
+        display: block;
+    }
+
+    .column-one label, .column-two label {
+        margin-top: 0px;
+    }
+
+    .num_resultado {
+        margin-bottom: 0;
     }
 
 }
